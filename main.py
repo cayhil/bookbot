@@ -21,8 +21,6 @@ def main():
     print("----------- Word Count ----------")
     print(f"Found {word_count} total words")
     print("--------- Character Count -------")
-    # print(character_count)
-    # print(character_list)
     for character in character_list:
         print(f"{character["char"]}: {character["num"]}")
     print("============= END ===============")
